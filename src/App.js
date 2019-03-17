@@ -9,8 +9,8 @@ class App extends Component {
   render() {
     return (
       <div style={{height: '800px', position: 'relative'}}>
-        <Layout fixedHeader>
-            <Header title={<span><span style={{ color: '#ddd' }}> </span><strong><a className="header-style" href="/"> Jon Smith Designs</a></strong></span>}>
+        <Layout className="background-content" fixedHeader>
+            <Header className="nav-bar" title={<span><span style={{ color: '#ddd' }}> </span><strong><a className="logo" href="/"> Jon Smith Designs</a></strong></span>}>
                 <Navigation>
                     <Link to="/projects">Projects</Link>
                     <Link to="/about">About</Link>

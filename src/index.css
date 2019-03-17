@@ -8,14 +8,41 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*.navbar {
+  background-color: #00303F;
+}*/
+
+.nav-bar {
+  background-color: #00303F;
+}
+
+
+.background-content {
+  background-color: #f1f0ee;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.header-style {
+
+.logo {
   text-decoration: none;
   color: white;
 }
-body {
-  height: 1000px; 
+
+.paint-brush {
+  width: 75%;
+  position: absolute;
+  left: 20%;
+}
+
+.friar-img {
+  width: 50%;
+  float: right;
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-right: 25px;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
