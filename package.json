@@ -3,15 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "file-loader": "^3.0.1",
+    "prop-types": "^15.7.2",
     "react": "^16.8.4",
+    "react-app-rewired": "^2.1.1",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-mdl": "^1.11.0",
+    "react-parallax": "^2.2.0",
+    "react-router-dom": "^4.4.0",
+    "react-scripts": "2.1.8",
+    "semantic-ui": "^2.4.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -21,5 +27,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "url-loader": "^1.1.2",
+    "webpack-cli": "^3.3.0"
+  }
 }
